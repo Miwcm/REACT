@@ -25,9 +25,10 @@ const App = () => {
   return (
       <>
         <TituloPrincipal /> {/*Cierre en la etiqueta de apertura */}
-        <TituloSecundario></TituloSecundario>{/*etiqueta apertura y etiqueta cierre */}
-        <TituloSecundario />
-        <TituloSecundario />
+        <TituloSecundario texto="Titulo Secundario" nro="1" color="crimson"></TituloSecundario>{/*etiqueta apertura y etiqueta cierre */}
+        <TituloSecundario texto="Titulo Secundario" nro="2" color="lightblue"/>
+        <TituloSecundario texto="Titulo Secundario" nro="3" color="violet"/>
+        <TituloSecundario texto="Titulo Secundario" nro="4" color="lightgreen"/>
       </>
     )
 }
